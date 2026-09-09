@@ -1,0 +1,51 @@
+LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISCIPLINAS"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnProgramacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Programação"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desenvolvimento Web"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desenvolvimento Mobile"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnIA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inteligência Artificial"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnEngSoftware"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Engenharia de Software" />
+
+</LinearLayout
